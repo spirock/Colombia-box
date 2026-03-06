@@ -42,7 +42,7 @@ install_hypnotix() {
     fi
     
     # Agregar PPA e instalar
-    sudo add-apt-repository ppa:hypnotix/stable -y
+    sudo add-apt-repository ppa:kelebek333/mint-tools -y
     sudo apt update
     sudo apt install -y hypnotix
     
