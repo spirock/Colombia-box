@@ -1,0 +1,43 @@
+#EXTM3U
+# ColombiaBox - Emisoras de Radio Colombia
+# Lista de emisoras colombianas en streaming
+
+# Caracol Radio
+#EXTINF:-1 tvg-id="caracolradio" tvg-name="Caracol Radio" tvg-country="CO" tvg-logo="",Caracol Radio
+https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL.mp3
+
+# W Radio
+#EXTINF:-1 tvg-id="wradio" tvg-name="W Radio" tvg-country="CO" tvg-logo="",W Radio
+https://playerservices.streamtheworld.com/api/livestream-redirect/WRADIO.mp3
+
+# La FM
+#EXTINF:-1 tvg-id="lafm" tvg-name="La FM" tvg-country="CO" tvg-logo="",La FM
+https://playerservices.streamtheworld.com/api/livestream-redirect/LAFM.mp3
+
+# Olímpica Stereo
+#EXTINF:-1 tvg-id="olimpica" tvg-name="Olímpica Stereo" tvg-country="CO" tvg-logo="",Olímpica Stereo
+https://cdn.emisionvirtual.com:8443/olimpica.mp3
+
+# Bésame
+#EXTINF:-1 tvg-id="besame" tvg-name="Bésame" tvg-country="CO" tvg-logo="",Bésame
+https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME.mp3
+
+# Radiónica
+#EXTINF:-1 tvg-id="radionica" tvg-name="Radiónica" tvg-country="CO" tvg-logo="",Radiónica
+https://cdn.emisionvirtual.com:8443/radionica.mp3
+
+# Blu Radio
+#EXTINF:-1 tvg-id="bluradio" tvg-name="Blu Radio" tvg-country="CO" tvg-logo="",Blu Radio
+https://playerservices.streamtheworld.com/api/livestream-redirect/BLURADIO.mp3
+
+# Tropicana
+#EXTINF:-1 tvg-id="tropicana" tvg-name="Tropicana" tvg-country="CO" tvg-logo="",Tropicana
+https://cdn.emisionvirtual.com:8443/tropicana.mp3
+
+# Oxígeno
+#EXTINF:-1 tvg-id="oxigeno" tvg-name="Oxígeno" tvg-country="CO" tvg-logo="",Oxígeno
+https://cdn.emisionvirtual.com:8443/oxigeno.mp3
+
+# Radio Nacional de Colombia
+#EXTINF:-1 tvg-id="radionacional" tvg-name="Radio Nacional" tvg-country="CO" tvg-logo="",Radio Nacional
+https://streaming.rtvc.gov.co/radio_nacional_live/smil:live.smil/playlist.m3u8

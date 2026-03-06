@@ -1,0 +1,51 @@
+name: colombia-box
+version: '0.0.1'
+summary: Configura Ubuntu con contenido colombiano - TV, Radio y Noticias
+description: |
+  ColombiaBox es un configurador automático para Ubuntu que instala y configura 
+  todo lo necesario para disfrutar contenido colombiano:
+
+  📺 TV - Canales en vivo: Señal Colombia, Canal Capital, Telepacífico, 
+     Telecaribe, Teleantioquia, Canal 1 y más.
+
+  📻 Radio - Emisoras en streaming: Caracol, W Radio, La FM, Olímpica, 
+     Bésame, Radiónica, Blu Radio y más.
+
+  📰 Noticias - Feeds RSS de los principales periódicos: El Tiempo, 
+     El Espectador, El Colombiano, Blu Radio, Semana.
+
+  Todo automático con un solo comando. Ideal para colombianos en el exterior 
+  o cualquiera que quiera acceder a contenido colombiano desde Linux.
+
+  ColombiaBox is an automatic configurator for Ubuntu that installs and sets 
+  up everything needed to enjoy Colombian content:
+
+  📺 TV - Live channels: Señal Colombia, Canal Capital, Telepacífico, 
+     Telecaribe, Teleantioquia, Canal 1 and more.
+
+  📻 Radio - Streaming radio stations: Caracol, W Radio, La FM, Olímpica, 
+     Bésame, Radiónica, Blu Radio and more.
+
+  📰 News - RSS feeds from major newspapers: El Tiempo, El Espectador, 
+     El Colombiano, Blu Radio, Semana.
+
+  Automatic with a single command. Ideal for Colombians abroad or anyone 
+  wanting to access Colombian content from Linux.
+license: MIT
+base: core24
+confinement: classic
+
+parts:
+  colombia-config:
+    plugin: nil
+    source: .
+    stage-snaps:
+      - gfeeds
+    override-build: |
+      mkdir -p $SNAPCRAFT_PART_INSTALL/files
+      mkdir -p $SNAPCRAFT_PART_INSTALL/scripts
+      cp -r scripts/* $SNAPCRAFT_PART_INSTALL/scripts/
+      cp -r files/* $SNAPCRAFT_PART_INSTALL/files/
+    install: |
+      chmod +x $SNAPCRAFT_PART_INSTALL/scripts/configure.sh
+      $SNAPCRAFT_PART_INSTALL/scripts/configure.sh

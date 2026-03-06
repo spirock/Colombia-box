@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>ColombiaBox - Noticias Colombia</title>
+    <dateCreated>2025-01-01</dateCreated>
+    <ownerName>ColombiaBox</ownerName>
+    <ownerEmail>info@colombiabox.com</ownerEmail>
+  </head>
+  <body>
+    <outline text="El Tiempo" title="El Tiempo" type="rss" xmlUrl="https://www.eltiempo.com/rss" htmlUrl="https://www.eltiempo.com"/>
+    <outline text="El Espectador" title="El Espectador" type="rss" xmlUrl="https://www.elespectador.com/feed/" htmlUrl="https://www.elespectador.com"/>
+    <outline text="El Colombiano" title="El Colombiano" type="rss" xmlUrl="https://www.elcolombiano.com/rss/" htmlUrl="https://www.elcolombiano.com"/>
+    <outline text="Blu Radio" title="Blu Radio" type="rss" xmlUrl="https://www.bluradio.com/rss" htmlUrl="https://www.bluradio.com"/>
+    <outline text="Semana" title="Semana" type="rss" xmlUrl="https://www.semana.com/rss/" htmlUrl="https://www.semana.com"/>
+  </body>
+</opml>

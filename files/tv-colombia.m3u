@@ -1,0 +1,35 @@
+#EXTM3U
+# ColombiaBox - Canales de TV Colombia
+# Lista de canales colombianos en streaming
+
+# Señal Colombia
+#EXTINF:-1 tvg-id="senalcolombia" tvg-name="Señal Colombia" tvg-country="CO" tvg-logo="",Señal Colombia
+https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8
+
+# Canal Capital
+#EXTINF:-1 tvg-id="canalcapital" tvg-name="Canal Capital" tvg-country="CO" tvg-logo="",Canal Capital
+https://stream.typile.io/canal-capital/live/index.m3u8
+
+# Telepacífico
+#EXTINF:-1 tvg-id="telepacifico" tvg-name="Telepacífico" tvg-country="CO" tvg-logo="",Telepacífico
+https://live.telepacifico.com/live/index.m3u8
+
+# Telecaribe
+#EXTINF:-1 tvg-id="telecaribe" tvg-name="Telecaribe" tvg-country="CO" tvg-logo="",Telecaribe
+https://stream.typile.io/telecaribe/live/index.m3u8
+
+# Teleantioquia
+#EXTINF:-1 tvg-id="teleantioquia" tvg-name="Teleantioquia" tvg-country="CO" tvg-logo="",Teleantioquia
+https://live.teleantioquia.com.co/live/playlist.m3u8
+
+# Canal 1
+#EXTINF:-1 tvg-id="canal1" tvg-name="Canal 1" tvg-country="CO" tvg-logo="",Canal 1
+https://stream.typile.io/canal-1/live/index.m3u8
+
+# RTVC
+#EXTINF:-1 tvg-id="rtvc" tvg-name="RTVC" tvg-country="CO" tvg-logo="",RTVC
+https://streaming.rtvc.gov.co/TV_RTVC_live/smil:live.smil/playlist.m3u8
+
+# Canal Trece
+#EXTINF:-1 tvg-id="canaltrece" tvg-name="Canal Trece" tvg-country="CO" tvg-logo="",Canal Trece
+https://stream.typile.io/canal-trece/live/index.m3u8
